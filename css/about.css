@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 17px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: -4%;
+}
+
+.logo {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #777777;
+    transition: 0.3s;
+}
+
+span {
+    color: #777777;
+    font-size: 38px;
+}
+
+.banner {
+    width: 100%;
+    height: 90vh;
+    margin-top: 220px;
+    margin-bottom: 400px;
+}
+
+.banner img {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    margin-top: -200px;
+}
+
+p {
+    text-align: center;
+}
+
+.story {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins';
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -100px;
+}
+
+section {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    max-height: 100%;
+}
+
+
+.pict {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    color: #ffffff;
+    margin-right: -400px;
+}
+
+.concard {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    left: -6%;
+    width: 390px;
+    height: 350px;
+    transition: 0.3s ease-out;
+}
+
+.card .imgbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card .imgbox img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.card .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    background: #0000009d;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card:hover .content {
+    width: 100%;
+    height: 75%;
+    left: 0;
+    bottom: 0;
+}
+
+.content p {
+    margin: 10px 0 0;
+    padding: 1em 1em;
+    transform: translateY(2em);
+    line-height: 1.3em;
+    transition: 0.3s;
+    text-align: justify;
+    opacity: 0;
+}
+
+.card:hover .content p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+h2 {
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    column-gap: 70px;
+    margin-right: 10px;
+}
+
+
+.foot {
+    font-weight: 400;
+    background-color: #484848;
+    /* margin-top: -900px; */
+    overflow-y: hidden;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #282828;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 8px;
+    color: #5e5e5e;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #5e5e5e;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #5e5e5e;
+    font-family: sans-serif;
+}
+
+.kosong {
+    margin-top: 20px;
+    margin-bottom: -900px;
+    overflow-y: hidden;
+}
+
+#p1 {
+    margin-left: 160px;
+}
+
+#p2 {
+    margin-left: -35px;
+}
+
+#p3 {
+    margin-left: -235px;
+}
+
+#p4 {
+    margin-left: 160px;
+    margin-top: -550px;
+}
+
+#p5 {
+    margin-left: -35px;
+    margin-top: -550px;
+}
+
+#p6 {
+    margin-left: -235px;
+    margin-top: -550px;
+}
+
+#p7 {
+    margin-left: 160px;
+    margin-top: -950px;
+}
+
+#p8 {
+    margin-left: -35px;
+    margin-top: -950px;
+}
+
+#p9 {
+    margin-left: -235px;
+    margin-top: -950px;
+}
